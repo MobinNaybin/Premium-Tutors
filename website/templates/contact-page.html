@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for( "static",filename="contact-us.css" )}}">
+    <title>About Us & Contact Us</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2><span style="color: rgb(8, 31, 161); font-size: 40px; background-color: #fff;">Premium</span>Tutors</h2>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="/"><button class="findtutor-button">Find Tutors</button></a></li>
+                <li><a href="/sign-up"><button class="becometutor-button">Become a Tutor</button></a></li>
+            </ul>
+        </nav>
+        <a href="/contact" target="_parent"><button
+                class="contact-button">Contact Us</button></a>
+        <a href="/logout" target="_parent"><button
+                class="logout-button">Log Out</button></a>
+    </div>
+    <div class="main-part">
+    <div class="first-part">
+        <div class="contact-form">
+            <input type="text" name="" id="" placeholder="Enter your Name">
+            <input type="text" name="" id="" placeholder="Enter a valid email address">
+            <textarea class="third-box" cols="50" rows="8" placeholder="Enter you message"></textarea>
+            <button>Submit</button>
+        </div>
+    </div>
+    <div class="second-part">
+        <div class="about-us-part">
+            <p class="p1">About Us</p>
+            <p class="p2">Hey! We are three students from the department of CEIT in Middle East Technical Univeristy!
+            </p>
+            <p class="p3">
+                Welcome to our online tutoring website, created by a passionate group of 
+                students from the Department of Computer Education and Instructional 
+                Technology (CEIT) at Middle East Technical University! 
+                As students ourselves, we understand the challenges and demands of academic 
+                life, and we have come together to build a platform that provides 
+                comprehensive and accessible tutoring services. Our aim is to empower 
+                students like you to achieve your full potential by offering personalized 
+                and interactive online tutoring sessions. </p>
+        </div>
+        <div class="contact-box">
+            <h3>CALL US</h3>
+            <p>0 (531) 359 9484</p>
+            <p>0 (531) 960 1914</p>
+            <p>0 (531) 960 1914</p>
+            <h3>Location</h3>
+            <p>Üniversiteler Mahallesi, </p>
+            <p>Dumlupınar Bulvarı No:1</p>
+            <h3>Bussiness Hours</h3>
+            <p>Mon - Fri ...... 10 am - 8pm</p>
+            <p>Sat, Sun .... Closed</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
